@@ -17,9 +17,25 @@ A comprehensive system that combines social robotics with physiological monitori
 4. **Push-ups**
 5. **Burpees**
 
+
 ## System Requirements
 - Python 3.8+
 - ROS (Robot Operating System)
 - QT Robot with ROSbridge
 - Polar H10 chest strap sensor
 - Linux environment (recommended)
+
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <repo-url>
+cd socially assistive robot
+```
+
+2. Create virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate #On windows: venv\Scripts\activate
+```
