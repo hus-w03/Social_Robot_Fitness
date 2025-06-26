@@ -8,7 +8,6 @@ A comprehensive system that combines social robotics with physiological monitori
 - **Real-time Physiological Monitoring:** Heart rate and HRV analysis using Polar chest strap sensors
 - **Adaptive Feedback:** Intelligent intensity adjustment based on physiological responses
 - **Social Robot Integration:** QT Robot with speech, gestures and emotional expressions
-- **Safety Monitoring:** Continous health monitoring
 - **Personalized Profiles:** User-specific configurations and progress tracking
 
 ## Supported Exercises
