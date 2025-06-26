@@ -30,7 +30,7 @@ A comprehensive system that combines social robotics with physiological monitori
 
 1. Clone the repository:
 ```bash
-git clone <repo-url>
+git clone <https://github.com/hus-w03/Social_Robot_Fitness.git>
 cd socially assistive robot
 ```
 
