@@ -31,11 +31,21 @@ A comprehensive system that combines social robotics with physiological monitori
 1. Clone the repository:
 ```bash
 git clone <https://github.com/hus-w03/Social_Robot_Fitness.git>
-cd socially assistive robot
+cd Social_Robot_Fitness-main/Social_robot
 ```
 
 2. Create virtual environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate #On windows: venv\Scripts\activate
+```
+
+3. Start sympathetic_plot.py and bt_analysis.py
+```bash
+python3 -W ignore sympathetic_plot.py & python3 bt_analysis.py
+```
+
+4. In another terminal, start coaching_feedback.py
+```bash
+python3 coaching_feedback.py
 ```
