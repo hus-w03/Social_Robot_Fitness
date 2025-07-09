@@ -40,12 +40,17 @@ python3 -m venv venv
 source venv/bin/activate #On windows: venv\Scripts\activate
 ```
 
-3. Start sympathetic_plot.py and bt_analysis.py
+3. Install dependencies
+```bash
+pip3 install bleak hrvanalysis
+```
+
+4. Start sympathetic_plot.py and bt_analysis.py
 ```bash
 python3 -W ignore sympathetic_plot.py & python3 bt_analysis.py
 ```
 
-4. In another terminal, start coaching_feedback.py
+5. In another terminal, start coaching_feedback.py
 ```bash
 python3 coaching_feedback.py
 ```
